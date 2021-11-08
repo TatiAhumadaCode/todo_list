@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8e91a7f092.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>
+            <i class="far fa-calendar-check"></i>
+            Todo List
+        </h1>
+    </header>
+    <main id="main">
+        <div id="left-nav">
+            <form id="dataForm">
+                <label for="input">
+                    <p> Añadir tarea:
+                        <input type="text" id="input" placeholder="Escribe una tarea aquí">
+                    </p>
+                </label>
+                <button id="addBtn">+</button>   
+            </form>   
+        </div>    
+        <div id="right-nav">
+            <table id="mytask_table">
+                <tr>
+                    <th>
+                        <i class="fas fa-clipboard-list"></i>
+                        Mis tareas
+                    </th>
+                </tr>
+            </table>
+        </div>
+    </main>
+    <footer>
+        <p>
+            Copyright © 2021 
+            <a href="https://github.com/TatiAhumadaCode">
+                <i class="fab fa-github"></i>
+            </a>
+        </p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
